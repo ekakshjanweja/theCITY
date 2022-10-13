@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "612896768921",
+    "project_id": "thecity-b0b9e",
+    "storage_bucket": "thecity-b0b9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612896768921:android:cf807a1a1eb28135d00908",
+        "android_client_info": {
+          "package_name": "com.example.the_city"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612896768921-p16nll93gs3r7l6t4egkdvlg92k5gocn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.the_city",
+            "certificate_hash": "eb378e99fb8697a2479e1ba4e42bd8e5a9169cc4"
+          }
+        },
+        {
+          "client_id": "612896768921-itd130alv3k2g4lbmdgg3p6cqg1hd2ub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-rd1VI1ZGOPlYtPWttr0Ise4Xz07Q028"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612896768921-itd130alv3k2g4lbmdgg3p6cqg1hd2ub.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "612896768921-d0kcq2up03r534grgkmcfofvu1l5h0nq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.theCity"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

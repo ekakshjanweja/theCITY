@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:the_city/common/constants/custom_colors.dart';
 import 'package:the_city/common/widgets/logo_text.dart';
 
+import '../../../common/widgets/custom_input.dart';
+
 class LoginScreen extends StatelessWidget {
   static const routeName = '/login-screen';
 
@@ -19,6 +21,10 @@ class LoginScreen extends StatelessWidget {
           ),
           child: Column(
             children: [
+              SizedBox(
+                height: MediaQuery.of(context).size.height * 0.1,
+              ),
+
               //Logo Text
 
               const LogoText(),
@@ -30,7 +36,18 @@ class LoginScreen extends StatelessWidget {
                 style: Theme.of(context).textTheme.bodyLarge!.copyWith(
                       color: textColor,
                     ),
-              )
+              ),
+
+              SizedBox(
+                height: MediaQuery.of(context).size.height * 0.1,
+              ),
+
+              //Phone Number TextField
+
+              const CustomInput(
+                hintText: 'Phone Number',
+                iconData: Icons.phone_outlined,
+              ),
             ],
           ),
         ),
